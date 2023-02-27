@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "449364953077",
+    "firebase_url": "https://flexomatic-e3ed7-default-rtdb.firebaseio.com",
+    "project_id": "flexomatic-e3ed7",
+    "storage_bucket": "flexomatic-e3ed7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449364953077:android:0e8fe48d4582368d5002bc",
+        "android_client_info": {
+          "package_name": "com.example.flexomatic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449364953077-igigc8i8gn8cnil8f78kra2o35g4emk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtFR8DP_A8aQiwWVkuZ91pPSuH7Q6gYjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449364953077-igigc8i8gn8cnil8f78kra2o35g4emk7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "449364953077-1lm43q9hhm38mlfu3bs7so6p0enfa8h2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flexomatic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

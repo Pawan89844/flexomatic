@@ -1,13 +1,14 @@
-import 'package:flexomatic/screen/account/account.dart';
-import 'package:flexomatic/screen/auth/login.dart';
-import 'package:flexomatic/screen/auth/otp.dart';
-import 'package:flexomatic/screen/home/home.dart';
 import 'package:flexomatic/screen/splash/splash.dart';
-import 'package:flexomatic/screen/troubleshooting/troubleshoot.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart' as firebase;
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'firebase_options.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await firebase.Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform);
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
